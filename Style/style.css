@@ -215,7 +215,7 @@ a:focus {
 }
 .contact-form {
   max-width: 600px;
-  background: white;
+  background: rgb(74, 74, 74);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -238,8 +238,7 @@ a:focus {
   font-family: inherit;
   font-size: 1rem;
 }
-.form-group input:focus,
-.form-group textarea:focus {
+.form-group input:focus .form-group textarea:focus {
   outline: none;
   border-color: #0056b3;
   box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
@@ -251,15 +250,15 @@ a:focus {
   font-size: 1rem;
 }
 /* --- Contact Page Specifics --- */
-
-/* Matching the Hero height but smaller for sub-pages */
 .page-banner {
   padding: 80px 0 40px;
+  justify-content: center;
   text-align: center;
   background-color: #0b0e14;
 }
 
 .page-banner h1 {
+  text-align: center;
   font-size: 3rem;
   color: #ffffff;
   margin-bottom: 0.5rem;
@@ -267,9 +266,9 @@ a:focus {
 
 /*Form Container (Styled like my Project Cards) */
 .contact-section {
-  padding-bottom: 80px;
-  display: flex;
+  padding-bottom: 70px;
   justify-content: center;
+  display: flex;
 }
 
 .contact-form {
